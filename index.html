@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Saurav's Portfolio</title>
+    <script src="https://kit.fontawesome.com/58b8320b36.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span id="element"></span></p>
+                <h1>Hi, I am <span> Saurav </span> <br> and I am from India </h1>
+                
+                
+
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------about---------------------------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img class ="img" src="images/dp.jpeg" alt="">
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Saurav Hingade and I am from pusad dist. yavatmal .I am a highly motivated and result-driven individual with a passion for IT feild.I am persuing BE in PRAMCEAM clg Amravati. During my academic journey,I developed a strong foundation in prgramming and developement feild . I am a firm believer in contineous learning and i constantly seek oppurtunities to expand my knowledge skillset</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>  
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>JAVA</span><br>Programming And Designing Java Apllications</li>
+                        <li><span>JAVACRIPT</span><br>Designing Web Applications</li>
+                        <li><span>Web Developement</span><br>Designing Web Applications</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>-FRESHER</span></li>  
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>SSC from G.D Highschool Pusad <br>Result : 96 %</li>
+                        <li><span>2020</span><br>HSC form Hindi Highschool PUSAD <br>Result : 80.04 %</li>
+                        <li><span>current </span><br>BE from PRMCEAM Amravati <br> CGPA: 9.05</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ----------------------------Services---------------------------------------------------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Our web design services are designed to help businesses and individuals establish a strong online precence and create visualy apealing,user-friendly and highly functional website </p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java-based Apllications</h2>
+                    <p>We developes higly intuitive java applications.java is widely used programming language known for its platform independence and versatility</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>We creates highly intuitive ,visually apealing and user centric interfaces</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------Portfolio---------------------------------------------------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/w1.jpg" alt="">
+                    <div class="layer">
+                       <h3>University Management System</h3>
+                       <p>It is a java Application. It covers all the aspect of University ,colleges or school </p>
+                       <a href="https://github.com/sauravhingade/University-Management-System"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                   
+                    <img src="images/w2.jpeg" alt="">
+                    <div class="layer">
+                    <h3>iBlog</h3>
+                    <p>It is a blogging website created using html,css and javascript.Here you can post and read blogs </p>
+                    <a href="https://github.com/sauravhingade/Blog-Website-Template"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/w3.jpeg" alt="">
+                    <div class="layer">
+                    <h3>Frontend Editor</h3>
+                    <p>It is a frontend-code Editor created using react-js. it is similar to the code-pen.</p>
+                    <a href="https://github.com/sauravhingade/CodePen-Clone"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/w4.png" alt="">
+                    <div class="layer">
+                    <h3>Quiz Application</h3>
+                    <p>It is a Quiz platform created using java </p>
+                    <a href="https://github.com/sauravhingade/Quiz-Application"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See more</a>
+
+
+        </div>
+    </div>
+
+    <!-- ----------------------------Contact---------------------------------------------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>sauravhingade33@gmail.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>8669411072</p>
+              <div class="social-icons">
+              <a href="https://www.linkedin.com/in/saurav-hingade-ba47b0207/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/sauravhingade"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100095050876740"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/sauravhingade/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="images/saurav Resume.docx" download class="btn btn2">Download Resume</a>
+            
+            </div>
+          
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="your email" required >
+                    <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Saurav. Made Personal Portfolio Website </p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");  // remove the active-link and red underline
+            }
+            for(tabcontent of tabcontents){
+
+                tabcontent.classList.remove("active-tab")  ; //remove active-tab class and remove content 
+            }
+
+            event.currentTarget.classList.add("active-link");  //add active link and red line
+            document.getElementById(tabname).classList.add("active-tab"); // get the id and remove the content of active tab
+            
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";     //side menu will be visible
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";      // on clicking close menu side menu will be invisible
+
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxxJy4prDfUhbZ4brFYddASGEfTHPehEPsp-bXakLYcrbnmivtMfnZJYZHbelqv8f0V/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Thank You"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+        })
+        form.reset()
+        
+        .catch(error => console.error('Error!', error.message))
+
+    })
+  </script>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: [ 'Programmer','Web Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
